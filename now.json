@@ -1,9 +1,8 @@
 {
   "version": 2,
-  "name": "petgram-AnaM",
   "builds": [
     {
-      "use": "@now/static-build",
+      "use": "@now/static-builds",
       "src": "package.json"
     }
   ],
@@ -22,7 +21,7 @@
     },
     {
       "src": "/.*",
-      "dest": "/dist/index.html"
+      "dest": "index.html"
     }
   ]
 }
